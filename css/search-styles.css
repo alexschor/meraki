@@ -1,0 +1,124 @@
+nav {
+	width: 100%;
+	top: 0;
+	height: 80px;
+	border: 2px solid rgba(65,208,186,0.13);
+	position: fixed;
+	background-color: white;
+	z-index: 99999;
+
+}
+
+
+#sm-logo img{
+	position: fixed;
+	width: 80px !important;
+	z-index: 99999;
+	
+}
+
+#search-icon img{
+	position: fixed;
+	width: 35px;
+	margin-left: 90px;
+	padding: 20px;
+	z-index: 99999;
+}
+
+#search-text {
+	margin-left: 150px;
+	padding: 5px 0px 0px 15px;
+	font-family: Avenir-Light;
+	font-size: 20px;
+	color: #616060;
+	letter-spacing: 1.11px;
+	position: fixed;
+	z-index: 99999;
+	
+}
+
+#shop-name img{
+	padding: 20px 0px 0px 40px;
+	width: 200px;
+	float: left;
+}
+
+h1 {
+	font-family: Avenir-Light;
+	font-size: 20px;
+	color: #616060;
+	letter-spacing: 1.11px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Avenir-Light;
+	font-size: 14px;
+	color: #616060;
+	letter-spacing: 1.11px;
+}
+
+p {
+	font-family: Avenir-Light;
+	font-size: 14px;
+	color: #616060;
+	letter-spacing: 1.11px;
+}
+
+#location-detail {
+	width: 500px;
+	height: 200px;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#content {
+	margin-top: 100px;
+	margin-left: 50px;
+	width: 800px;
+	padding: 30px;
+	position: absolute;
+}
+
+
+iframe {
+	margin-left: 900px;
+	position: fixed;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 400px;
+	background-color: #003C42;
+	position: absolute;
+	margin-top: 1500px;
+}
+
+.footer img {
+	width: 230px;
+	padding: 70px;
+}
+
+#contentBox {
+	font-family: Avenir-Roman;
+	font-size: 13px;
+	color: white;
+	letter-spacing: 2.06px;
+	line-height: 25px;
+	padding-bottom: 50px;
+}
+
+#copy {
+	background-color: #012E32;
+	height: 40px;
+	font-family: Avenir-Light;
+	font-size: 9px;
+	color: white;
+	letter-spacing: 2.06px;
+	
+
+}
+
