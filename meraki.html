@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<img id="boat-image" src="images/Boat-Picture.png">
+
+
+	<nav class="fixed">
+
+		<a id="logo" href="#home"><img src="images/MERAKI-logo.png"></a>
+
+			<button id="hamburger">&#9776;</button>
+					<ul>
+						<li><a style="color:white; text-decoration:none;" href="#about">About</a></li>
+						<li><a style="color:white; text-decoration:none; padding:5px; border: 1px; border-color:white;" href="#contact">Log In</a></li>
+						<li><a style="color:white; text-decoration:none;" href="#portfolio">Sign Up</a></li>
+					</ul>
+	</nav>
+
+	
+	<div class="search">
+
+		<p id="home-header">Find local artisan shops wherever you are traveling.</p>
+
+			<div id="tfheader">
+    <form id="" method="get" action="florence.html">
+        <input type="text" class="tftextinput" id="search-box" name="q" size="21" maxlength="120" placeholder="Where are you traveling?"><input type="submit" value="FIND LOCAL SHOPS" id="cta">
+    </form>
+<div class="tfclear"></div>
+</div>
+
+
+	</div>
+
+	<div id="description">
+
+		<div id="travel">
+			
+			<p data-midnight="ltblue">travel</p>
+			<img src="images/travel.jpg">
+			<div class="overlay">
+				<span>We find shops wherever you decide to travel. Discover hidden streets and local jewels.</span>
+			</div>
+		</div>
+
+		<div id="explore">
+			<p>explore</p>
+			<img src="images/explore.jpg">
+			<div class="overlay">
+				<span>Simply enter your current travel destination and explore local shops nearest to you.</span>
+			</div>
+		</div>
+
+		<div id="discover">
+			<p>discover</p>
+			<img src="images/discover.jpg">
+			<div class="overlay">
+				<span>Discover handmade goods and culturally influenced products that are unique to your location.</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="heading1">
+		<p>We carefully curate the list of shops, so you <b>never leave your destination</b> without an <b>authentic product.</b> More about Meraki <b>here.</b></p>
+
+	</div>
+
+
+	<div id="slider">
+		<img src="images/slide-cheese@2x.png" alt="">
+		<img src="images/shoes@2x.png" alt="">
+		<img src="images/peru@2x.png" alt="">
+	</div>
+	<div style="clear:both"></div>
+	<button id="next"><img src="images/arrow@2x.png"></button>
+	
+
+
+	<div id="heading2">
+		<p>Our Latest Finds Around the Globe</p>
+	</div>
+
+		<div class="product-main">
+			<img src="images/frenchpress.jpg">
+		</div>
+
+		<div class="product-top">
+
+		<div class="product">
+			<img src="images/salt.jpg">
+		</div>
+		<div class="product">
+			<img src="images/belt.jpg">
+		</div>
+		<div class="product">
+			<img src="images/blanket2.jpg">
+		</div>
+
+		<div class="product">
+			<img src="images/seasalt.jpg">
+		</div>
+		<div class="product">
+			<img src="images/flowers.jpg">
+		</div>
+		<div class="product">
+			<img src="images/yosemite.jpg">
+		</div>
+			
+			
+		</div>
+			
+			
+		
+
+	<div id="definition">
+
+		<img src="images/definition@2x.png">
+			<h1>meraki [may-rah-kee] (adjective)</h1>
+				<p>Modern Greeks often use this word to describe doing something with soul, creativity, or love — when you put "something of yourself" into what you're doing, whatever it may be. Meraki is often used to describe cooking or preparing a meal, but it can also mean arranging a room, choosing decorations, or giving a gift 
+				from the heart.</p>
+
+
+	</div>
+
+	<div class="footer"><img src="images/MERAKI-foot@2x.png">
+		<div id="contentBox" style="margin:0px auto; width:100%">
+
+    		<div id="column1" style="float:left; margin:0; width:15%; margin-left: 70px;">
+    			 335 Our Address<br>
+				 Suite #4003<br>
+                 New York, NY 10024
+    		</div>
+
+    		<div id="column2" style="float:left; margin:0;width:15%; margin-left: 50px;">
+   				  About <br>
+                  Our Shops<br>
+                  Careers<br>
+                  Blog
+    		</div>
+
+    		<div id="column3" style="float:left; margin:0;width:15%; margin-left: 50px;">
+    			 Your Account<br>
+				 Your Trips<br>
+                 Our Terms<br>
+                 Help
+    		</div>
+
+    		<div id="column4" style="float:left; margin:0;width:15%; margin-left: 50px;">
+    			 T: 631-703-2008<br>
+				 E: hello@meraki.com
+    		</div>
+
+		<div id="copy" style="float:left; margin:0;width:100%; padding-left: 70px; padding-top: 10px;margin-top: 60px;">
+    			 Meraki Copyright 2016 
+    		</div>
+
+		</div>
+
+		
+	</div>
+
+
+	<script>
+function myFunction() {
+    var x = document.getElementById("mySearch").placeholder;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+<script>
+    var a = document.getElementById('tfnewsearch');
+    a.addEventListener('submit',function(e) {
+        e.preventDefault();
+        var b = document.getElementById('tftextinput').value;
+        window.location.href = 'florence.html'+b;
+
+    });
+
+</script>
+
+<script  src="http://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/midnight.jquery.js"></script>
+        <script>
+        // Start midnight
+        $(document).ready(function(){
+            //This selector represent the HTML element(navigation bar) whose style will be changed. Midnight adds data-midnight classes to this HTML element.
+            $('nav.fixed').midnight();
+        });
+        </script>
+<script src="js/main.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.midnight/{version}/midnight.jquery.min.js"></script>
+
+</body>
+</html>
+
+
+</body>
+</html>
